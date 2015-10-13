@@ -1,0 +1,29 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left:30px;
+    padding:11;
+    overflow: hidden
+}
+
+li {
+    float:left;
+}
+
+a:link, a:visited {
+    display: block;
+    width: 150px;
+    height:50px;
+    font-weight: bold;
+    color: Gray;
+    background-color:Blue;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover, a:active {
+    background-color:Gray;
+}
